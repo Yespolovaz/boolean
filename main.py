@@ -29,7 +29,7 @@ class MainMenu:
     def new_window(self, gui_class, title):
         new_win = tk.Toplevel(self.root)
         new_win.title(title)
-        new_win.config(bg="#e4fdf4")  # Light green background for new window
+        new_win.config(bg="#e4fdf4")
         gui_class(new_win)
 
 
