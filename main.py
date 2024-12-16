@@ -14,7 +14,7 @@ class MainMenu:
         ttk.Label(root, text="Welcome to the Logic Tools Suite!", font=("Times New Roman", 16, 'bold'), foreground="#ffffff", background="#2c503b").pack(pady=30)
 
         button_style = ttk.Style()
-        button_style.configure("TButton", font=("Times New Roman", 12), padding=10, relief="flat", background="#87eaa8", foreground="#2c3e50", width=20)
+        button_style.configure("TButton", font=("Times New Roman", 12), padding=10, relief="flat", background="#87eaa8", foreground="#2c3e50", width=30)
 
         ttk.Button(root, text="Truth Table Generator", command=self.open_truth_table, style="TButton").pack(pady=10)
         ttk.Button(root, text="Quine-McCluskey Minimization", command=self.open_quine_mccluskey, style="TButton").pack(pady=10)
