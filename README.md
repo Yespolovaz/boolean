@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/185f028c-1e9f-4ddf-b4f8-305f10fe2c0a)![image](https://github.com/user-attachments/assets/ef6857ff-66c8-414f-9d1e-00306056b9a6)# Truth Table Generator and Quine-McCluskey Minimization
+# Truth Table Generator and Quine-McCluskey Minimization
 
 This project provides a graphical user interface (GUI) for generating truth tables and performing the Quine-McCluskey minimization for Boolean expressions. The project is built using Python's `tkinter` library.
 
